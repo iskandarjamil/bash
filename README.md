@@ -16,10 +16,14 @@ sudo chmod +x {script_name.sh}
 ### Scripts
 
 #### 1. networktest.sh
+Use `--url https://example.com,https://google.com` to execute directly without typing url
 ```bash
 ./networktest.sh
 # or
 bash networktest.sh
+
+# with url
+bash networktest.sh --url https://example.com,https://google.com
 ```
 
 #### 2. robot.sh
