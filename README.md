@@ -7,6 +7,7 @@
 ## Scripts
 1. [networktest.sh](#1-networktestsh)
 1. [robot.sh](#2-robotsh)
+1. [updatesecuritygroup.sh](#3-updatesecuritygroup)
 
 ### Fix permission
 ```bash
@@ -36,4 +37,12 @@ bash robot.sh
 # only header
 bash robot.sh -I
 bash robot.sh --header
+```
+
+#### 3. updatesecuritygroup.sh
+Automatic update AWS Security Group base on local IP
+```bash
+./updatesecuritygroup.sh
+# or
+bash updatesecuritygroup.sh
 ```
